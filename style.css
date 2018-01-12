@@ -1,0 +1,394 @@
+/*
+Theme Name: Monti Hemobiotec
+Theme URI: https://wordpress.org/themes/monti/
+Author: Michelle Navia
+Author URI: https://wordpress.org/
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: monti
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+body {
+    background-color: #fff;
+}
+h1, h2, h3{
+font-family: 'Francois One', sans-serif;
+}
+p, button{
+font-family: 'Encode Sans Condensed', sans-serif;;
+}
+/*--------------------------------------------------------------
+# Navegacion (navbar)
+--------------------------------------------------------------*/
+
+nav.navegacion {
+	top: 0;
+  	left: 0;
+  	right: 0;
+  	z-index: 10;
+  	background: #fff;
+}
+nav.navegacion ul{
+	margin-top: 12px;
+}
+nav.navegacion ul li{
+	/*para los dispositivos moviles*/
+	text-align: center;
+	margin-right: 10px;
+
+}
+nav.navegacion ul li a {
+	/* para los enlaces*/
+	color: #2a3073;
+	padding: 13px;
+    padding-bottom: 3px;
+    border-bottom: 10px solid #fff;
+    transition: 0.3s ease;	
+}
+nav.navegacion ul li a:hover, nav.navegacion ul li a:active,  nav.navegacion ul li a:focus{
+	background: transparent;
+        border-bottom: 10px solid #ce2930;
+    transition: 0.3s ease;
+}
+nav.navegacion ul li:hover, nav.navegacion ul li:active {
+
+}
+#navbarjs {
+    position: fixed;
+    box-shadow: 1px 1px 7px #00000045;
+}
+/*togglenavigation*/
+.navbar .navbar-header,
+.navbar-collapse {
+    float:none;
+    vertical-align: top;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 26px;
+  height: 4px;
+  background-color: #2a3073;
+  border-radius: 1px;
+}
+
+/*codigo para ajustar logo en navbar*/
+.navbar-brand {
+	/*padding 8px ajusta bien para todos los dispositivos*/
+  	padding: 8px;
+}
+.navbar-brand> a img {
+	  height: 100%;
+	  padding: 1px;
+	  width: auto;
+}
+
+/* para dispositivos moviles*/
+@media (min-width: 780px){
+	
+	nav.navegacion ul li{
+		margin-left: auto;
+    	margin-right:auto;
+
+	}
+	nav.navegacion{
+		padding: 1px 0;
+		width: 100%;
+		position:absolute;
+		display: block;
+	}
+}
+
+
+
+/*       slider principal           */
+.slider-principal {
+    margin-top: 80px;
+}
+.slider-principal .carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 182px;
+}
+.titulo-principal {
+    text-align: left;
+}
+.titulo-principal h1 {
+    background: #3d69af;
+    width: 370px;
+    padding: 7px 4px;
+}
+.titulo-principal p {
+    width: 310px;
+    text-align: left;
+}
+.titulo-principal button {
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid #fff;
+    padding: 8px;
+}
+
+/* Contenedor botones */
+.contenedor-botones {
+    color: #fff;
+    padding: 0px;
+}
+.contenedor-botones .laboratorio {
+    background-image: url(http://localhost/hemobiotec/wp-content/uploads/2018/01/laboratorio.png);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    padding: 3% 3% 3% 16%;
+}
+.contenedor-botones button{
+	background: transparent;
+	border: 1px solid #fff;
+	padding: 3px 18px;
+	transition: 0.5s;
+}
+.contenedor-botones button:hover{
+	background: #fff;
+	color: #000;
+	transition: 0.5s;
+}
+.contenedor-botones .equipo{
+	background-image: url(http://localhost/hemobiotec/wp-content/uploads/2018/01/equipo.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 3% 16% 3% 3%;
+}
+
+/* Contenedor beneficios */
+.gris {
+    background: #f7f7f7;
+    height: 326px;
+    width: 100%;
+    position: absolute;
+    left: 0pc;
+}
+.contenedor-beneficios h2{
+	color: #fff;
+	background: #5495b8;
+	padding: 5px 30px;
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	margin-top: 5%;
+}
+.contenedor-beneficios .beneficios h3{
+	color: #fff;
+	background: #5495b8;
+	padding: 3px 10px;
+	text-align: right;
+	width: 74%;
+}
+.contenedor-beneficios .beneficios p{
+		width: 74%;
+}
+.contenedor-beneficios .imagen, .contenedor-beneficios .beneficios{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.contenedor-beneficios .imagen {
+    text-align: right;
+}
+.contenedor-beneficios .imagen img{
+    width: 74%;
+}
+/* Contenedor premio */
+.contenedor-premio{
+	background-image: url(http://localhost/hemobiotec/wp-content/uploads/2018/01/fondo-premio.png);
+	background-attachment: fixed;
+	background-size: 100%;
+	background-position: center;
+}
+.contenedor-premio h2{
+	background: #75cfff;
+	color: #fff;
+    padding: 1% 3%;
+}
+.contenedor-premio button{
+	background: transparent;
+	border: 1px solid #fff;
+	padding: 3px 18px;
+	transition: 0.5s;
+	color: #fff;
+}
+.contenedor-premio button:hover{
+	background: #fff;
+	color: #000;
+	transition: 0.5s;
+}
+.contenedor-premio  .texto {
+    padding: 8% 5%;
+    color: #fff;
+}
+.logo-gob {
+    text-align: center;
+}
+.colores {
+    margin-top: 17%;
+}
+
+
+/* sección noticias */
+
+.contenedor-noticias {
+    background: #f1f1f1;
+}
+
+.contenedor-noticias h2{
+	color: #fff;
+    background: #5495b8;
+	padding: 5px 30px;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-top: 5%;
+}
+.bloque-noticias {
+    background: #fff;
+    width: 75%;
+    margin: auto;
+    padding: 2%;
+    margin-bottom: 6%;
+}
+.tarjeta-noticia {
+    height: 380px;
+    position: relative;
+    width: 100%;
+}
+.tarjeta-noticia .imagen {
+    width: 100%;
+    height: 170px;
+    overflow: hidden;
+}
+/*.tarjeta-noticia .imagen img{
+	width: 100%;
+}*/
+.tarjeta-noticia h3 {
+    height: 54px;
+    overflow: hidden;
+}
+.tarjeta-noticia p {
+    height: 100px;
+    overflow: hidden;
+}
+
+.ver-noticias {
+    float: right;
+    margin-top: 4%;
+    background: #5495b8;
+    border: 0px;
+    padding: 5px 55px;
+    transition: 0.5s;
+    color: #fff;
+}
+.ver-noticias:hover{
+	background: #3d69af;
+	transition: 0.5s;
+}
+.tarjeta-noticia button {
+    position: absolute;
+    bottom: 0px;
+	right: 10px;
+    background: transparent;
+    border: 0px;
+    color: #5495b8;
+}
+
+
+/*       estilos para Ipad         */
+@media (min-width: 1024px){
+	.contenedor-botones .laboratorio {
+    padding: 1% 3% 3% 5%;
+	}
+	.contenedor-botones .equipo {
+    padding: 1% 6% 3% 3%;
+	}
+	.contenedor-noticias h2 {
+    width: 91%;
+	}
+	.bloque-noticias {
+    width: 91%;
+	}
+}
+
+@media (max-width: 768px){
+	.contenedor-botones .equipo {
+    padding: 3% 16% 3% 16%;
+	}
+	.contenedor-premio {
+    background-attachment: inherit;
+    background-size: 124%;
+    background-position: center;
+    background-repeat: no-repeat;
+	}
+	.tarjeta-noticia {
+    margin-bottom: 12%;
+}
+}
+
+/*    estilos celular      */
+@media (max-width: 667px){
+	.contenedor-beneficios h2 {
+    width: 100%;
+	}
+	.contenedor-beneficios .imagen {
+    text-align: center;
+}
+.contenedor-beneficios .imagen img {
+    width: 50%;
+}
+.contenedor-beneficios .beneficios h3 {
+    text-align: center;
+    width: 100%;
+}
+.contenedor-beneficios .beneficios p {
+    width: 100%;
+}
+.contenedor-premio {
+    background-size: 135%;
+}
+.contenedor-noticias h2 {
+    width: 100%;
+}
+.bloque-noticias {
+    width: 100%;
+}
+.tarjeta-noticia button {
+    right: 46%;
+}
+.ver-noticias {
+	float: none;
+    margin-left: 34%;
+}
+}
+
+@media (max-width: 375px){
+	.contenedor-botones .laboratorio {
+    background-size: 147%;
+    padding: 1% 6% 5% 6%;
+}
+.contenedor-botones .equipo {
+    padding: 1% 5% 5% 7%;
+    background-size: 123%;
+}
+.contenedor-beneficios .imagen img {
+    width: 100%;
+}
+.contenedor-premio {
+    background-size: 220%;
+}
+}
