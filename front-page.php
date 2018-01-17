@@ -54,7 +54,7 @@
 			<h2>Beneficios del Tratamiento</h2>
 		</div>
 		<div class="col-md-6 col-sm-6 col-xs-12 imagen">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/pupila.png" alt="">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/pupila.png" alt="" class="wow zoomIn">
 		</div>
 		<div class="col-md-6 col-sm-6 col-xs-12 beneficios">
 			<h3>Beneficio n°1</h3>
