@@ -83,6 +83,9 @@
 		</div>
 	</div>
 	<!-- sección noticias-->
+<<<<<<< HEAD
+	<section id="noticias" class="smooth-scroll">
+=======
 	<div class="contenedor-noticias container-fluid ">
 		<h2>Noticias</h2>
 		<div class="bloque-noticias container">
@@ -118,6 +121,10 @@
 			</div>
 			<button class="ver-noticias">Ver más noticias</button>
 		</div>
+>>>>>>> 80955473c7a2afd04e35d664b5613f46bba77290
 
-	</div>
+	    <?php include_once( 'noticias.php' ); ?>
+
+	</section>
+	
 <?php get_footer(); ?>
