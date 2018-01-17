@@ -67,7 +67,7 @@
 	</div> 
 	<!--- Contenedor premio -->
 	<div class="contenedor-premio container-fluid">
-		<div class="texto wow fadeInUp col-md-6">
+		<div class="texto wow zoomIn col-md-6">
 			<h2> Premio 2013 Salud Innova</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut explicabo praesentium.</p>
 			<button>Ver más</button>	
@@ -87,7 +87,7 @@
 		<h2>Noticias</h2>
 		<div class="bloque-noticias container">
 			<div class="col-md-4">
-				<div class="tarjeta-noticia wow fadeInUp">
+				<div class="tarjeta-noticia wow zoomIn">
 					<div class="imagen">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/equipo.png" alt="">	
 					</div>
@@ -97,7 +97,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="tarjeta-noticia wow fadeInUp">
+				<div class="tarjeta-noticia wow zoomIn">
 					<div class="imagen">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/equipo.png" alt="">	
 					</div>
@@ -107,7 +107,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="tarjeta-noticia wow fadeInUp">
+				<div class="tarjeta-noticia wow zoomIn">
 					<div class="imagen">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/equipo.png" alt="">	
 					</div>

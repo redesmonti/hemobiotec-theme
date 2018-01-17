@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php bloginfo('name'); ?></title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url') ?>">
-	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Francois+One" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 <body><!--se cierra en footer.php-->
