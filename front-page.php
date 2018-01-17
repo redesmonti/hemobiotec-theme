@@ -83,41 +83,10 @@
 		</div>
 	</div>
 	<!-- sección noticias-->
-	<div class="contenedor-noticias container-fluid ">
-		<h2>Noticias</h2>
-		<div class="bloque-noticias container">
-			<div class="col-md-4">
-				<div class="tarjeta-noticia wow fadeInUp">
-					<div class="imagen">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/equipo.png" alt="">	
-					</div>
-					<h3>Título noticia largo largo largo laaaaaargo</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non omnis repellat repellendus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non omnis repellat repellendus.</p>
-					<button>Leer más</button>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="tarjeta-noticia wow fadeInUp">
-					<div class="imagen">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/equipo.png" alt="">	
-					</div>
-					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non omnis repellat repellendus.Lorem ipsum dolor sit amet, consectetur </h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non omnis repellat repellendus.</p>
-					<button>Leer más</button>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="tarjeta-noticia wow fadeInUp">
-					<div class="imagen">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/equipo.png" alt="">	
-					</div>
-					<h3>Título noticia</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non omnis repellat repellendus.</p>
-					<button>Leer más</button>
-				</div>
-			</div>
-			<button class="ver-noticias">Ver más noticias</button>
-		</div>
+	<section id="noticias" class="smooth-scroll">
 
-	</div>
+	    <?php include_once( 'noticias.php' ); ?>
+
+	</section>
+	
 <?php get_footer(); ?>
