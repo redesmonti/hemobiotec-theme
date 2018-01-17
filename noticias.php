@@ -15,10 +15,10 @@
               <?php if(!empty($url)){ ?>
                 <div class="col-md-4">
                   <div class="tarjeta-noticia">
-                    <div class="imagen">
+                    <div class="imagen wow zoomIn">
                    <?php  if ( has_post_thumbnail() ) { the_post_thumbnail('medium', array('class' => 'img-responsive')); }?>
 
-                  </div>
+                  </div class="wow fadeIn">
                     <h3><?php the_title(); ?></h3>
                     <div class="descripcion"><?php the_content(); ?></div>
                     

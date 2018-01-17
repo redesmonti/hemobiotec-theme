@@ -83,45 +83,9 @@
 		</div>
 	</div>
 	<!-- sección noticias-->
-<<<<<<< HEAD
+
 	<section id="noticias" class="smooth-scroll">
-=======
-	<div class="contenedor-noticias container-fluid ">
-		<h2>Noticias</h2>
-		<div class="bloque-noticias container">
-			<div class="col-md-4">
-				<div class="tarjeta-noticia wow zoomIn">
-					<div class="imagen">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/equipo.png" alt="">	
-					</div>
-					<h3>Título noticia largo largo largo laaaaaargo</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non omnis repellat repellendus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non omnis repellat repellendus.</p>
-					<button>Leer más</button>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="tarjeta-noticia wow zoomIn">
-					<div class="imagen">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/equipo.png" alt="">	
-					</div>
-					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non omnis repellat repellendus.Lorem ipsum dolor sit amet, consectetur </h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non omnis repellat repellendus.</p>
-					<button>Leer más</button>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="tarjeta-noticia wow zoomIn">
-					<div class="imagen">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/equipo.png" alt="">	
-					</div>
-					<h3>Título noticia</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non omnis repellat repellendus.</p>
-					<button>Leer más</button>
-				</div>
-			</div>
-			<button class="ver-noticias">Ver más noticias</button>
-		</div>
->>>>>>> 80955473c7a2afd04e35d664b5613f46bba77290
+
 
 	    <?php include_once( 'noticias.php' ); ?>
 
