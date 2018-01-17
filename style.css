@@ -359,6 +359,17 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
     margin-left: 29px;
 }
 
+.fondo-blanco {
+    background: #f9f9f9;
+    padding: 3%;
+}
+.container.noticia {
+    margin-top: 8%;
+}
+.container.noticia.navegacion a:nth-child(2){
+    float: right;
+
+}
 /*       estilos para Ipad         */
 @media (max-width: 1024px){
 	.contenedor-botones .laboratorio {
