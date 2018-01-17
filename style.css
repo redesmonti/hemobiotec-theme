@@ -95,9 +95,7 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
   	padding: 8px;
 }
 .navbar-brand> a img {
-	  height: 100%;
-	  padding: 1px;
-	  width: auto;
+	  width: 145px;
 }
 
 /* para dispositivos moviles*/
@@ -115,7 +113,16 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
 		display: block;
 	}
 }
-
+.contenedo-contacto {
+    background: #f7ad51;
+    text-align: right;
+    padding-right: 5%;
+}
+.contenedo-contacto a {
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+}
 
 
 /*       slider principal           */

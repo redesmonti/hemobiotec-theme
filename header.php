@@ -17,8 +17,8 @@
 	        <div class="container">
 	          <div class="navbar-header"> 
 	            <div class="navbar-brand">
-	              <a href="">
-	              	<h3>LOGO</h3>
+	              <a href="http://localhost/hemobiotec">
+	              	<img src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" alt="">
 	              </a>  
 	            </div> 
 	            <button type="button" class="navbar-toggle smooth-scroll" data-toggle="collapse" data-target=".navbar-ex1-collapse"> 
