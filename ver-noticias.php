@@ -25,7 +25,7 @@ Template Name: Ver noticias
           <?php $i = 1; while ( $custom_post_type->have_posts() ) : $custom_post_type->the_post(); ?>
           <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
           <?php if(!empty($url)){ ?>
-          <div class="col-md-12 space">
+          <div class="col-md-12 space wow fadeIn">
             <div class="imagen">
               <?php  if ( has_post_thumbnail() ) { the_post_thumbnail('medium', array('class' => 'img-responsive')); }?>
             </div>
