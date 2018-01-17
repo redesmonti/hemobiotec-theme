@@ -45,5 +45,22 @@ add_action( 'after_setup_theme', 'mis_menus' );
 add_theme_support( 'post-thumbnails' );
 
 
+function mis_widgets(){
+ register_sidebar(
+   array(
+       'name'          => __( 'Sidebar' ),
+       'id'            => 'sidebar',
+       'description'   => 'Widget para las paginas interiores de hemobiotec',
+       'before_widget' => '<div id="%1$s" class="widget">',
+       'after_widget'  => '</div>',
+       'before_title'  => '<h3 class="widget-tittle">',
+       'after_title'   => '</h3>',
+   )
+ );
+}
+add_action('init','mis_widgets');
+
+
+
 
 ?>
