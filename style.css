@@ -348,6 +348,17 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
     text-decoration: none;
 }
 
+.widget {
+    border: 1px solid #ddd;
+    padding: 6% 16% 14% 16%;
+}
+.widget ul {
+    list-style: none;
+    border-left: 7px solid #f7ad51;
+    padding-left: 8px;
+    margin-left: 29px;
+}
+
 /*       estilos para Ipad         */
 @media (max-width: 1024px){
 	.contenedor-botones .laboratorio {
