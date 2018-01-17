@@ -317,6 +317,22 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
 }
 
 
+/* ver más noticias */
+.ver-mas-noticias {
+    margin-top: 7%;
+}
+.ver-mas-noticias .space {
+    padding: 5%;
+    background: #f1f1f1;
+    margin-bottom: 5%;
+}
+.ver-mas-noticias h1.titulo {
+    font-size: 18px;
+}
+.descripcion p {
+    font-size: 12px;
+}
+
 /*       estilos para Ipad         */
 @media (max-width: 1024px){
 	.contenedor-botones .laboratorio {

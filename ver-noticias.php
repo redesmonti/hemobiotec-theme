@@ -4,8 +4,9 @@ Template Name: Ver noticias
 */
 ?>
 <?php get_header(); ?>
-<div class="container">
+<div class="container ver-mas-noticias">
   <div class="contenedor-entradas">
+  <h1>Noticias</h1>
     <div class="col-md-8">
       <?php 
         $currentPage = (get_query_var('paged')) ? get_query_var('paged') : 1 ; //cuenta el numero de post y si no existen vuelve a la primera pagina
