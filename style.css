@@ -332,6 +332,14 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
 .descripcion p {
     font-size: 12px;
 }
+.ver-noticias a:focus, .ver-noticias  a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.ver-noticias a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
 /*       estilos para Ipad         */
 @media (max-width: 1024px){
