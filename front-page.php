@@ -54,7 +54,7 @@
 			<h2>Beneficios del Tratamiento</h2>
 		</div>
 		<div class="col-md-6 col-sm-6 col-xs-12 imagen">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/pupila.png" alt="" class="wow zoomIn">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/pupila.png" alt="">
 		</div>
 		<div class="col-md-6 col-sm-6 col-xs-12 beneficios">
 			<h3>Beneficio n°1</h3>
@@ -67,7 +67,7 @@
 	</div> 
 	<!--- Contenedor premio -->
 	<div class="contenedor-premio container-fluid">
-		<div class="texto wow zoomIn col-md-6">
+		<div class="texto wow fadeInUp col-md-6">
 			<h2> Premio 2013 Salud Innova</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut explicabo praesentium.</p>
 			<button>Ver más</button>	
@@ -83,9 +83,7 @@
 		</div>
 	</div>
 	<!-- sección noticias-->
-
 	<section id="noticias" class="smooth-scroll">
-
 
 	    <?php include_once( 'noticias.php' ); ?>
 

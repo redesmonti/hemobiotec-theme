@@ -29,7 +29,7 @@
                 </div>
                   <?php } ?>
             <?php $i++;endwhile; endif; ?>
-		
+	<button class="ver-noticias"><a href="http://localhost/hemobiotec/ver-noticias/"> Ver más noticias</a></button>	
 	</div>
 
 </div>
