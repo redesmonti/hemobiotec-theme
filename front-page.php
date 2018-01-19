@@ -66,4 +66,5 @@
 	<section class="contenedor-mapa wow fadeIn">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.6443904207827!2d-73.04837828470937!3d-36.827040479943086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b5d3d712fcdb%3A0x37f63556cdb45580!2zQ2FzdGVsbMOzbiAzMTYsIENvbmNlcGNpw7NuLCBSZWdpw7NuIGRlbCBCw61vIELDrW8!5e0!3m2!1ses!2scl!4v1516367011396" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</section>
+
 <?php get_footer(); ?>

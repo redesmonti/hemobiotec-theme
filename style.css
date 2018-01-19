@@ -453,3 +453,7 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
     background-size: 220%;
 }
 }
+
+#the-map{
+    /*height: 400px;*/
+}
