@@ -14,11 +14,8 @@ function hemobiotec_styles(){
   wp_enqueue_style('footer', get_stylesheet_directory_uri() . '/css/footer.css');
   wp_enqueue_style('style', get_stylesheet_uri()); //usa el style.css, debe ser la ultima hoja de estilos
 
-  wp_enqueue_script('google-maps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyArvAt2g8BKDU-qUG0lQ04TFN2MqtpdA98&v=3&sensor=false', array(), null, true);
-  wp_enqueue_script('script', get_stylesheet_directory_uri() . '/js/script.js', array('google-maps'), null, true);
-  wp_localize_script( 'script', 'wpGlobals', array(
-            'mapOptions' => file_get_contents( dirname(__FILE__) . '/map_style.json' )
-          ) );
+  //slider
+  wp_enqueue_script('index', get_stylesheet_directory_uri() . '/js/index.js', array(), '', true);
 
 }
 add_action('wp_enqueue_scripts', 'hemobiotec_styles'); //Hook para llamar al la funcion en wordpress

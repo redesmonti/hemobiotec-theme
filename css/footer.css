@@ -3,7 +3,7 @@
 --------------------------------------------------------------*/
 
 #myFooter {
-    background-color: #011342;
+    background-color: #f7ad51;
     color: white;
 }
 
@@ -62,7 +62,7 @@
 
 #myFooter .second-bar a {
     font-size: 22px;
-    color: #9fa3a9;
+    color: #f7ad51;
     padding: 10px;
     transition: 0.2s;
     line-height: 68px;

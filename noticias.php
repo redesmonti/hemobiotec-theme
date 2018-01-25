@@ -16,9 +16,8 @@
                 <div class="col-md-4">
                   <div class="tarjeta-noticia">
                     <div class="imagen wow zoomIn">
-                   <?php  if ( has_post_thumbnail() ) { the_post_thumbnail('medium', array('class' => 'img-responsive')); }?>
-
-                  </div class="wow fadeIn">
+                      <?php  if ( has_post_thumbnail() ) { the_post_thumbnail('medium', array('class' => 'img-responsive')); }?>
+                    </div>
                     <h3><?php the_title(); ?></h3>
                     <div class="descripcion"><?php the_content(); ?></div>
                     
@@ -27,9 +26,9 @@
                   
                      
                 </div>
-                  <?php } ?>
-            <?php $i++;endwhile; endif; ?>
-	<button class="ver-noticias"><a href="http://localhost/hemobiotec/ver-noticias/"> Ver más noticias</a></button>	
+              <?php } ?>
+              <?php $i++;endwhile; endif; ?>
+	<button class="ver-noticias"><a href="http://pruebabrother.96.lt/hemobiotec/ver-noticias/"> Ver más noticias</a></button>	
 	</div>
 
 </div>

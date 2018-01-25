@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 	<section name="slider">
-		<?php echo do_shortcode('[metaslider id="44"]'); ?>
+		<?php include_once( 'slider.php' ); ?>
 
 	</section>
 
@@ -10,14 +10,14 @@
 			<div class="wow fadeInLeft">
 				<h2>Conozca Nuestro Laboratorio</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ab quidem maxime blanditiis ad alias distinctio.</p>
-				<button>Ver más</button>
+				<button class="ver-paginas"><a href="http://pruebabrother.96.lt/hemobiotec/nuestro-laboratorio/"> Ver más</a></button>
 			</div>
 		</div>
 		<div class="col-md-6 equipo">
 			<div class="wow fadeInRight">
 				<h2>Conozca Nuestro Equipo</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ab quidem maxime blanditiis ad alias distinctio</p>
-				<button>Ver más</button>
+				<button class="ver-paginas"><a href="http://pruebabrother.96.lt/hemobiotec/nuestro-equipo/"> Ver más</a></button>
 			</div>
 		</div>
 	</div>	
@@ -32,19 +32,19 @@
 		</div>
 		<div class="col-md-6 col-sm-6 col-xs-12 beneficios">
 			<h3>Beneficio n°1</h3>
-			<p class="wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nostrum molestias eius aliquam mollitia sint dolores suscipit.</p>
+			<p class="wow fadeInUp">Sustitutos biológicos de la lágrima</p>
 			<h3>Beneficio n°2</h3>
-			<p class="wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nostrum molestias eius aliquam mollitia sint dolores suscipit.</p>
+			<p class="wow fadeInUp">Productos autólogos, sin preservantes ni elementos tóxicos</p>
 			<h3>Beneficio n°3</h3>
-			<p class="wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nostrum molestias eius aliquam mollitia sint dolores suscipit.</p>
+			<p class="wow fadeInUp">Indicado para pacientes con enfermedades complejas de la superficie ocular</p>
 		</div>
 	</div> 
 	<!--- Contenedor premio -->
 	<div class="contenedor-premio container-fluid">
 		<div class="texto wow fadeInUp col-md-6">
-			<h2> Premio 2013 Salud Innova</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut explicabo praesentium.</p>
-			<button>Ver más</button>	
+			<h2> Premio 2013 Desafío Salud Gestiona</h2>
+			<p>Primer lugar en el concurso “Desafío Salud Gestiona” de la Subsecretaría de redes Asistenciales del Ministerio de Salud, destinado a premiar iniciativas que mejoran procesos en los Hospitales, y que significan un reconocimiento a la capacidad de análisis, creatividad, innovación y mejoramiento en la gestión de los procesos desarrollados y ejecutados por funcionarios de los establecimientos hospitalarios. </p>
+			<button class="ver-paginas"><a href="http://pruebabrother.96.lt/hemobiotec/premio/">Ver más sobre su historia</a></button>	
 		</div>
 		<div class="logo-gob col-md-6">
 			<div class="col-md-12 logo-gob">
