@@ -24,7 +24,7 @@ Template Name: Nuestro Equipo
 							En la actualidad soy Alumno en el Programa de Doctorado en Ciencias de la Salud, de la Facultad de Medicina de la Universidad Nacional de Córdoba, Argentina.
 						</p>	
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 foto-cv">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/eric.png" class="imagen-cv">
 					</div>	
 				</div>
@@ -54,7 +54,7 @@ Template Name: Nuestro Equipo
 					<br><br>
 					<p>Desde 2013 a la fecha trabajan juntos en el uso de hemoderivados autólogos para el tratamiento del ojo seco severo  y otras enfermedades de la superficie ocular. El mismo año, el trabajo con “Plasma rico en plaquetas para el tratamiento del ojo seco severo: Experiencia en el Hospital de Lota”, ganó el primer lugar en el concurso Desafío Salud Gestiona del Ministerio de Salud. El trabajo fue premiado, además, en el Congreso Chileno de Oftalmología el 2014 como el mejor póster de la sección Segmento Anterior.</p>	
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 foto-cv">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/lorena.png" class="imagen-cv">
 				</div>	
 				</div>
