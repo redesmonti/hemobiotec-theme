@@ -9,6 +9,9 @@ Template Name: Enfermedades
 		<div class="fondo-blanco">
 			<div class="titulo"><h1>Sindrome de Ojo Seco</h1></div>
 			<hr>
+			<div class="imagen-enfermedades">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/enfermedades.png" alt="...">
+			</div>
 			<div class="descripcion-paginas">
 				<p>
 					El síndrome de ojo seco constituye uno de los motivos de consulta más frecuentes en oftalmología

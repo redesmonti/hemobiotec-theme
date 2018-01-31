@@ -9,6 +9,9 @@ Template Name: Tratamientos
 		<div class="fondo-blanco">
 			<div class="titulo"><h1>Hemoderivados autólogos para el tratamiento de enfermedades de la superficie ocular</h1></div>
 			<hr>
+			<div class="imagen-enfermedades">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/tratamientos.png" alt="...">
+			</div>
 			<div class="descripcion-paginas">
 				<p>
 					Hemoderivados autólogos es el nombre que se otorga a los productos obtenidos de la propia sangre del paciente y que actualmente se utilizan en diversas áreas médicas con el objetivo de regenerar y reparar tejidos.
