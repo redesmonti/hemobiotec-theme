@@ -374,6 +374,14 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
 .imagen-cv{
   width: 300px;
 }
+.imagen-enfermedades {
+    width: 500px;
+    margin-bottom: 5%;
+}
+
+.imagen-enfermedades img {
+    width: 100%;
+}
 /*       estilos para Ipad         */
 @media (max-width: 1024px){
 	.contenedor-botones .laboratorio {
@@ -458,6 +466,9 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
 }
 .contenedor-premio {
     background-size: 308%;
+}
+.imagen-enfermedades {
+    width: 100%;
 }
 }
 #the-map{
@@ -601,7 +612,7 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
   overflow: hidden;
   z-index: 1;
   position: absolute;
-  right: 60%;
+  right: 70%;
   top: 15%;
   width: 50.25vh;
   height: 67vh;
@@ -676,8 +687,8 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
 .fnc-slide__content {
   z-index: 2;
   position: absolute;
-  left: 40%;
-  top: 40%;
+  left: 20%;
+  top: 60%;
 }
 .fnc-slide__heading {
   margin-bottom: 10px;

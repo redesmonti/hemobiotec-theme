@@ -10,6 +10,9 @@ Template Name: Instrucciones de uso
 		<div class="fondo-blanco">
 			<div class="titulo"><h1>Instrucciones para el uso de Plasma Rico en Plaquetas</h1></div>
 			<hr>
+			<div class="imagen-enfermedades">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/usos.png" alt="...">
+			</div>
 			<div class="descripcion-paginas">
 				<p>
 					El Plasma Rico en Plaquetas es un preparado que se obtiene de la propia sangre del paciente y
