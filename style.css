@@ -388,18 +388,21 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
 	.bloque-noticias {
     width: 91%;
 	}
+  .colores {
+    margin-top: 22%;
+}
 }
 
 @media (max-width: 768px){
 	.contenedor-botones .equipo {
     padding: 3% 16% 3% 16%;
 	}
-	.contenedor-premio {
+.contenedor-premio {
     background-attachment: inherit;
-    background-size: 124%;
+    background-size: 131%;
     background-position: center;
     background-repeat: no-repeat;
-	}
+}
 	.tarjeta-noticia {
     margin-bottom: 12%;
 }
@@ -424,7 +427,7 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
     width: 100%;
 }
 .contenedor-premio {
-    background-size: 135%;
+    background-size: 154%;
 }
 .contenedor-noticias h2 {
     width: 100%;
@@ -454,10 +457,9 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
     width: 100%;
 }
 .contenedor-premio {
-    background-size: 220%;
+    background-size: 308%;
 }
 }
-
 #the-map{
     /*height: 400px;*/
 }
