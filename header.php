@@ -12,7 +12,7 @@
 	<header class="site-header">
 	    <nav class="navegacion navbar-fixed-top" id="navbarjs" role="navigation">
 	    	<div class="contenedo-contacto">
-	          <a href="tel:56227140600">(56 2) 27140600</a>
+	          <a href="tel:56227140600"><i class="fa fa-phone" aria-hidden="true"></i> 41-2108607</a>
 	      	</div>
 	        <div class="container">
 	          <div class="navbar-header"> 
