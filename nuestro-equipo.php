@@ -9,6 +9,8 @@ Template Name: Nuestro Equipo
 	<h1>Nuestro Equipo</h1>
 	<div class="contenedor-entradas">
 		<div class="fondo-blanco">
+			<p>Desde 2013 a la fecha trabajan juntos en el uso de hemoderivados autólogos para el tratamiento del ojo seco severo  y otras enfermedades de la superficie ocular. El mismo año, el trabajo con “Plasma rico en plaquetas para el tratamiento del ojo seco severo: Experiencia en el Hospital de Lota”, ganó el primer lugar en el concurso Desafío Salud Gestiona del Ministerio de Salud. El trabajo fue premiado, además, en el Congreso Chileno de Oftalmología el 2014 como el mejor póster de la sección Segmento Anterior.</p>	
+			<br><br>
 			<div class="titulo"><h2>Eric Jara Ayala</h2></div>
 			<hr>
 			<div class="descripcion-paginas">
@@ -51,8 +53,7 @@ Template Name: Nuestro Equipo
 					<li>
 						Autologous fibrine membrane combined with solid platelet-rich plasma in the management of perforated corneal ulcers: A pilot study. JAMA Ophthalmol 2013, 131(6): 745-751. J L Alio, A E Rodríguez, L M Martínez, A Luque R.
 					</li>
-					<br><br>
-					<p>Desde 2013 a la fecha trabajan juntos en el uso de hemoderivados autólogos para el tratamiento del ojo seco severo  y otras enfermedades de la superficie ocular. El mismo año, el trabajo con “Plasma rico en plaquetas para el tratamiento del ojo seco severo: Experiencia en el Hospital de Lota”, ganó el primer lugar en el concurso Desafío Salud Gestiona del Ministerio de Salud. El trabajo fue premiado, además, en el Congreso Chileno de Oftalmología el 2014 como el mejor póster de la sección Segmento Anterior.</p>	
+					
 				</div>
 				<div class="col-md-4 foto-cv">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/lorena.png" class="imagen-cv">

@@ -8,12 +8,14 @@ Template Name: Nuestro Laboratorio
 	<h1>Nuestro Laboratorio</h1>
 	<div class="contenedor-entradas">
 		<div class="fondo-blanco">
-			<div class="titulo"><h2>Labotarorio</h2></div>
+			<div class="titulo"><h2>Laboratorio</h2></div>
 			<hr>
 			<div class="descripcion-paginas">
 				<p>
-					Alguna descripción del laboratorio
+					Lo invitamos a familiarizarse con nuestras instalaciones.
 					<br>
+					<br>
+					<?php echo photo_gallery(1); ?>
 					
 				</p>		
 			</div>

@@ -14,7 +14,10 @@
 		                
 		              </div>
 		              <div class="fnc-slide__heading-line">
-		                <span>Pruebas</span>
+		                <span>Pioneros en la</span>
+		              </div>
+		              <div class="fnc-slide__heading-line">
+		                <span>Región del Biobío</span>
 		              </div>
 		            </h2>
 		          </div>
@@ -30,10 +33,10 @@
 		          <div class="fnc-slide__content">
 		            <h2 class="fnc-slide__heading">
 		              <div class="fnc-slide__heading-line">
-		                <span>Mas</span>
+		                <span>Mejoría en 2</span>
 		              </div>
 		              <div class="fnc-slide__heading-line">
-		                <span>Pruebas</span>
+		                <span>a 4 semanas</span>
 		              </div>
 		            </h2>
 		          </div>
@@ -49,10 +52,10 @@
 		          <div class="fnc-slide__content">
 		            <h2 class="fnc-slide__heading">
 		              <div class="fnc-slide__heading-line">
-		                <span>Personal</span>
+		                <span>Sin </span>
 		              </div>
 		              <div class="fnc-slide__heading-line">
-		                <span>Hemobiotec</span>
+		                <span>preservantes</span>
 		              </div>
 		            </h2>
 		          </div>
@@ -70,15 +73,15 @@
 		      </div>
 		      <div class="fnc-nav__controls">
 		        <button class="fnc-nav__control">
-		          Pruebas
+		          Pioneros en la Región del Biobío
 		          <span class="fnc-nav__control-progress"></span>
 		        </button>
 		        <button class="fnc-nav__control">
-		          Mas Pruebas
+		          Mejoría en 2 a 4 semanas
 		          <span class="fnc-nav__control-progress"></span>
 		        </button>
 		        <button class="fnc-nav__control">
-		          Personal Hemobiotec
+		          Sin preservantes
 		          <span class="fnc-nav__control-progress"></span>
 		        </button>
 		      </div>

@@ -9,14 +9,15 @@
 		<div class="col-md-6 laboratorio">
 			<div class="wow fadeInLeft">
 				<h2>Conozca Nuestro Laboratorio</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ab quidem maxime blanditiis ad alias distinctio.</p>
+				<p>Lo invitamos a familiarizarse con nuestras instalaciones.</p>
+				<br>
 				<button class="ver-paginas"><a href="http://pruebabrother.96.lt/hemobiotec/nuestro-laboratorio/"> Ver más</a></button>
 			</div>
 		</div>
 		<div class="col-md-6 equipo">
 			<div class="wow fadeInRight">
 				<h2>Conozca Nuestro Equipo</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ab quidem maxime blanditiis ad alias distinctio</p>
+				<p>Desde 2013 trabajando juntos en el tratamiento de enfermedades oculares.</p>
 				<button class="ver-paginas"><a href="http://pruebabrother.96.lt/hemobiotec/nuestro-equipo/"> Ver más</a></button>
 			</div>
 		</div>

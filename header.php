@@ -17,7 +17,7 @@
 	        <div class="container">
 	          <div class="navbar-header"> 
 	            <div class="navbar-brand">
-	              <a href="http://pruebabrother.96.lt/hemobiotec/">
+	              <a href="<?php bloginfo('url'); ?>">
 	              	<img src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" alt="">
 	              </a>  
 	            </div> 

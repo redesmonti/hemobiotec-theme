@@ -15,12 +15,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-@font-face {
-font-family: "ITCAvantGardeStd-Bk";
-src: url(fonts/ITCAvantGardeStd-Bk.otf);
-}
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 @font-face {
 font-family: "ITCAvantGardeStd-Bold";
 src: url(fonts/ITCAvantGardeStd-Bold.otf);
@@ -32,7 +27,7 @@ h1, h2, h3{
 font-family: "ITCAvantGardeStd-Bold";
 }
 li, p, button{
-font-family: "ITCAvantGardeStd-Bk";
+font-family: 'Quicksand', sans-serif;
 }
 /*--------------------------------------------------------------
 # Navegacion (navbar)
@@ -252,8 +247,11 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
 .logo-gob {
     text-align: center;
 }
+.logo-gob img {
+    width: 177px;
+}
 .colores {
-    margin-top: 17%;
+    margin-top: 26%;
 }
 
 
@@ -374,6 +372,22 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
 .imagen-cv{
   width: 300px;
 }
+.imagen-enfermedades {
+    width: 500px;
+    margin-bottom: 5%;
+}
+
+.imagen-enfermedades img {
+    width: 100%;
+}
+
+
+.texto-justificado{
+  text-align: justify;
+}
+.descripcion-paginas{
+  text-align: justify;
+}
 /*       estilos para Ipad         */
 @media (max-width: 1024px){
 	.contenedor-botones .laboratorio {
@@ -427,7 +441,7 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
     width: 100%;
 }
 .contenedor-premio {
-    background-size: 154%;
+background-size: 219%;
 }
 .contenedor-noticias h2 {
     width: 100%;
@@ -458,6 +472,9 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
 }
 .contenedor-premio {
     background-size: 308%;
+}
+.imagen-enfermedades {
+    width: 100%;
 }
 }
 #the-map{
@@ -602,7 +619,7 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
   overflow: hidden;
   z-index: 1;
   position: absolute;
-  right: 60%;
+  right: 70%;
   top: 15%;
   width: 50.25vh;
   height: 67vh;
@@ -677,20 +694,21 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
 .fnc-slide__content {
   z-index: 2;
   position: absolute;
-  left: 30%;
-  top: 40%;
+  left: 20%;
+  top: 60%;
 }
 .fnc-slide__heading {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
 .fnc-slide__heading-line {
-  overflow: hidden;
-  position: relative;
-  padding-right: 20px;
-  font-size: 100px;
-  color: #fff;
-  word-spacing: 10px;
+    overflow: hidden;
+    position: relative;
+    padding-right: 20px;
+    font-size: 51px;
+    color: #fff;
+    word-spacing: 10px;
+    text-shadow: 1px 4px 3px #00000082;
 }
 .fnc-slide__heading-line:nth-child(2) {
   padding-left: 30px;
@@ -854,7 +872,7 @@ nav.navegacion ul li:hover, nav.navegacion ul li:active {
   vertical-align: top;
   width: 100px;
   height: 50px;
-  font-size: 14px;
+  font-size: 12px;
   color: #fff;
   text-transform: uppercase;
   background: transparent;
@@ -1021,7 +1039,7 @@ body {
 }
 .example-slider .fnc-slide-1 .fnc-slide__inner,
 .example-slider .fnc-slide-1 .fnc-slide__mask-inner {
-  background-image: url("http://pruebabrother.96.lt/hemobiotec/wp-content/uploads/2018/01/slider3.png");
+  background-image: url("http://pruebabrother.96.lt/hemobiotec/wp-content/uploads/2018/01/slider1.png");
 }
 .example-slider .fnc-slide-2 .fnc-slide__inner,
 .example-slider .fnc-slide-2 .fnc-slide__mask-inner {
@@ -1029,7 +1047,7 @@ body {
 }
 .example-slider .fnc-slide-3 .fnc-slide__inner,
 .example-slider .fnc-slide-3 .fnc-slide__mask-inner {
-  background-image: url("http://pruebabrother.96.lt/hemobiotec/wp-content/uploads/2018/01/slider1.png");
+  background-image: url("http://pruebabrother.96.lt/hemobiotec/wp-content/uploads/2018/01/slider3.png");
 }
 .example-slider .fnc-slide-3 .fnc-slide__inner:before {
   content: "";

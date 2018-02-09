@@ -7,18 +7,17 @@ Template Name: Enfermedades
 <div class="container noticia">
 	<div class="contenedor-entradas">
 		<div class="fondo-blanco">
-			<div class="titulo"><h1>Sindrome de Ojo Seco</h1></div>
+			<div class="titulo"><h1>Enfermedades</h1></div>
 			<hr>
 			<div class="imagen-enfermedades">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/enfermedades.png" alt="...">
 			</div>
 			<div class="descripcion-paginas">
 				<p>
-					El síndrome de ojo seco constituye uno de los motivos de consulta más frecuentes en oftalmología
+					En el área oftalmológica, los hemoderivados autólogos son considerados como sustitutos biológicos de la lágrima debido a que poseen características biofísicas similares a la lágrima, además de contener elementos proteicos que participan en la mantención del equilibrio de la superficie ocular.
 					<br>
-					Los síntomas y signos de los pacientes afectados pueden variar desde molestias leves y ocasionales como visión borrosa, ardor ocular, irritación y sensación de cuerpo extraño hasta molestias intensas y constantes que pueden limitar significativamente el desempeño de sus actividades cotidianas, con un deterioro importante de su calidad de vida.
+					Por este motivo, se utilizan en el tratamiento de enfermedades complejas de la superficie ocular, tales como ojo seco severo, úlceras corneales de difícil curación, quemaduras químicas de la córnea, enfermedades cicatriciales de la superficie ocular entre otras.
 					<br>
-					El tratamiento del ojo seco contempla múltiples alternativas, siendo los lubricantes artificiales el eje de la terapia. El film lagrimal, sin embargo, es un complejo sistema compuesto no sólo por agua y sales sino también por vitaminas, lípidos y proteínas que aportan propiedades bactericidas, ópticas y que promueven la proliferación, migración y diferenciación celular. Por tal motivo, los casos severos de ojo seco constituyen un desafío terapéutico ya que en el mercado no existe ningún sustituto de la lágrima que aporte los factores tróficos necesarios para la mantención del equilibrio de la superficie ocular e incluso pueden contener preservantes que resulten nocivos para ellos. Muchos de los elementos presentes normalmente en la lágrima han sido identificados también en los hemoderivados, por lo cual se postula que ellos aportan lo que hace falta en éstos casos severos de enfermedad de la superficie.
 				</p>		
 			</div>
 		</div>
